@@ -1,0 +1,118 @@
+/*
+Theme Name: Store eCommerce
+Template: di-blog
+
+*/
+
+.userform{
+	display:block;
+	
+}
+.userform textarea{
+	width:300px;
+	height:250px;
+}
+.userform input, .userform p, .userform select, .userform input[type="submit"], .userform textarea,  h1.headingform{
+	display:block;
+	margin:10px 100px;
+	
+}
+
+
+/* Additional Woo CSS */
+
+.woocommerce.woocommerce-page.archive ul.products li.product {
+	border: 1px solid #E9E9E9;
+}
+
+.woocommerce.woocommerce-page.archive ul.products li.product div.star-rating {
+	display: none;
+}
+
+.woocommerce.woocommerce-page.archive ul.products li.product span.price {
+	text-align: center;
+	padding: 5px 0;
+}
+
+.woocommerce.woocommerce-page.archive ul.products li.product h2.woocommerce-loop-product__title {
+	text-align: center;
+}
+
+.woocommerce.woocommerce-page.archive ul.products li.product .button.add_to_cart_button,
+.woocommerce.woocommerce-page.archive ul.products li.product .button.product_type_external,
+.woocommerce.woocommerce-page.archive ul.products li.product .button.product_type_grouped {
+	margin: 0 auto;
+	display: table;
+}
+
+.woocommerce.woocommerce-page.archive ul.products li.product .added_to_cart {
+	margin: 0 auto;
+	display: table;
+}
+
+.woocommerce.woocommerce-page.archive ul.products li.product span.onsale {
+	-webkit-transition: visibility .5s, opacity .5s;
+	transition: visibility .5s, opacity .5s;
+}
+
+.woocommerce.woocommerce-page.archive ul.products li.product:hover span.onsale {
+	visibility: hidden;
+	opacity: 0;
+}
+
+/* Additional Woo CSS END */
+
+/* Plugin Compatibility CSS */
+
+/* YITH WooCommerce Quick View Compatibility */
+
+.woocommerce.woocommerce-page.archive ul.products li.product .button.yith-wcqv-button {
+	-webkit-transition: visibility .5s, opacity .5s;
+	transition: visibility .5s, opacity .5s;
+	visibility: hidden;
+	opacity: 0;
+	position: relative;
+	display: table;
+	margin: 0 auto;
+	position: relative;
+	top: -251px;
+	padding: 8px 8px;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.woocommerce.woocommerce-page.archive ul.products li.product:hover .button.yith-wcqv-button {
+	visibility: visible;
+	opacity: 1;
+}
+
+/* YITH WooCommerce Quick View Compatibility END */
+
+/* Plugin Compatibility CSS END */
+
+
+/* Additional Menu CSS */
+
+.footer-menu {
+	list-style-type: none;
+	padding: 0;
+	margin: 0 auto;
+	display: table;
+}
+.navbar-nav.footer-menu li {
+	display: inline-block;
+}
+
+.footer-menu li {
+	padding: 12px;
+}
+
+.footer-menu li a {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+
