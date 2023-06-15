@@ -1,0 +1,58 @@
+.floating-cta-container {
+    position: fixed;
+    top: 30px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 99999999;
+}
+
+.floating-cta {
+    display: flex;
+}
+
+.floating-cta-box {
+    margin: auto 15px;
+    background-color: rgba(1, 162, 221, 0.41) !important;
+    line-height: 1.6;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px 15px !important;
+	color: #FFF;
+}
+
+.floating-cta-box a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.floating-cta-box p {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .floating-cta-container {
+        top: auto !important;
+        position: fixed;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        cursor: pointer;
+        width: 100%;
+        z-index: 99999999;
+    }
+
+    .floating-cta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .floating-cta-box {
+        margin-bottom: 15px;
+	
+    }
+
+}
