@@ -1,0 +1,117 @@
+.widget_pdn_owner_info_widget img.owner-photo {
+    float: left;
+    border-radius: 50%;
+    width: 100px;
+    margin: 20px 0;
+    margin-right: 20px;
+}
+.widget_pdn_owner_info_widget img.google-partner {
+    width: 80%;
+    margin: 0 auto;
+}
+.widget_pdn_owner_info_widget ul.social-links {
+    clear: both;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.widget_pdn_owner_info_widget ul.social-links li {
+    display: inline-block;
+}
+.widget_pdn_owner_info_widget ul.social-links li a {
+    border: none;
+}
+
+.widget_pdn_owner_info_widget ul.social-links li a.fb {
+    color: #3765a3;
+}
+.widget_pdn_owner_info_widget ul.social-links li a.fb:hover {
+    color: #26599d;
+}
+.widget_pdn_owner_info_widget ul.social-links li a.twitter {
+    color: #28a9e2;
+}
+.widget_pdn_owner_info_widget ul.social-links li a.twitter:hover {
+    color: #199dd8;
+}
+.widget_pdn_owner_info_widget ul.social-links li a.linkedin {
+    color: #007bb6;
+}
+.widget_pdn_owner_info_widget ul.social-links li a.linkedin:hover {
+    color: #016b9d;
+}
+.widget_pdn_owner_info_widget ul.social-links li a.gplus {
+    color: #dc4a38;
+}
+.widget_pdn_owner_info_widget ul.social-links li a.gplus:hover {
+    color: #d43c2a;
+}
+.widget_pdn_owner_info_widget ul.social-links li a.instagram {
+    color: #fb3958;
+}
+.widget_pdn_owner_info_widget ul.social-links li a.instagram:hover {
+    color: #d43c2a;
+}
+.widget_pdn_owner_info_widget ul.social-links li a.youtube {
+    color: #ff0000;
+}
+.widget_pdn_owner_info_widget ul.social-links li a.youtube:hover {
+    color: #d43c2a;
+}
+
+.hire-me-modal .pdn-hide {
+    display: none;
+}
+.hire-me-modal .modal-content {
+    border-radius: 0;
+}
+.hire-me-modal .modal-body {
+    min-height: 400px;
+}
+.hire-me-modal .hire-loader {
+    margin-top: 100px;
+    margin-left: 230px;
+}
+.hire-me-modal .hire-success-msg {
+    margin-top: 130px;
+    color: green;
+    font-size: 40px;
+    text-align: center;
+}
+.hire-me-modal h4 {
+    clear: none;
+}
+.hire-me-modal label {
+    width: 150px;
+    float: left;
+}
+.hire-me-modal label.error {
+    font-size: 14px;
+    color: red;
+    clear: both;
+    width: auto;
+    margin-left: 150px;
+    display: block;
+    font-weight: normal;
+}
+.hire-me-modal input[type=text],
+.hire-me-modal input[type=email],
+.hire-me-modal select {
+    width: 300px;
+}
+.hire-me-modal button.close {
+    background-color: inherit;
+    float: right;
+    display: inline-block;
+    width: auto;
+}
+@media screen and (max-width: 700px) {
+    .hire-me-modal label.error {
+        margin-left: 0;
+    }
+    .hire-me-modal input[type=text],
+    .hire-me-modal input[type=email],
+    .hire-me-modal select {
+        width: 100%;
+    }
+}
