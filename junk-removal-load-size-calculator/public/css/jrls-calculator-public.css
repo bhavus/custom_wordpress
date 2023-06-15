@@ -1,0 +1,11 @@
+button#btnquote {
+    width: 100%;
+}
+
+div.tooltip {
+    left: 0 !important;
+}
+
+.btn-calc {
+    display: inline-block;
+}
