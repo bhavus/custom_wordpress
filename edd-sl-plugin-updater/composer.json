@@ -1,0 +1,22 @@
+{
+  "name": "polevaultweb/edd-sl-plugin-updater",
+  "type": "library",
+  "description": "Easy Digital Downloads WordPress plugin updater class for Software Licenses",
+  "keywords": ["edd", "updates", "wordpress"],
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "EasyDigitalDownloads",
+      "email": "contact@easydigitaldownloads.com"
+    },
+    {
+      "name": "Iain Poulson",
+      "email": "iain@polevaultweb.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "EDD_SL_Plugin_Updater.php"
+    ]
+  }
+}
